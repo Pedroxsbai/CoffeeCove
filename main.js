@@ -13,11 +13,25 @@ function myNav(){
 }
 myNav();
 
+localStorage.setItem('myCard',[])
+
 window.onload = ()=>{
     let homeContent = document.querySelector(".home-content");
     homeContent.style.left = "50px"
 }
+var my_card = localStorage.getItem('my_card')
+function addToCard(item){
+   /TODO
+    //my card doit etre un JSON (a regardedr JSON.parse() )
+}
 
+function deleteFromCard(){
+    /TODO
+}
+
+function showCard(){
+    /TODO
+}
 
 
 
